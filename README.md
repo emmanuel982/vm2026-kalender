@@ -1,61 +1,61 @@
-# VM 2026 Fotboll – Kalender för Home Assistant
+# FIFA World Cup 2026 – Calendar for Home Assistant (Sweden & Norway)
 
-ICS-kalendrar med alla 104 matcher i Fotbolls-VM 2026. Rätt tider och TV-kanal per land. Fungerar i Home Assistant via Remote Calendar, men också direkt i Google Kalender, Apple Kalender och Outlook.
+ICS calendars with all 104 matches from the 2026 FIFA World Cup. Currently available for Sweden and Norway, with correct local times and TV channel per country. Works in Home Assistant via Remote Calendar, and also directly in Google Calendar, Apple Calendar and Outlook.
 
 ---
 
-## Tillgängliga kalendrar
+## Available calendars
 
-| Land | Kanaler | URL |
+| Country | Channels | URL |
 |---|---|---|
-| Sverige | SVT / TV4 | [vm2026-sverige.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/vm2026-sverige.ics) |
-| Norge | NRK / TV 2 | [vm2026-norge.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/vm2026-norge.ics) |
+| Sweden | SVT / TV4 | [vm2026-sverige.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/vm2026-sverige.ics) |
+| Norway | NRK / TV 2 | [vm2026-norge.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/vm2026-norge.ics) |
 
 ---
 
-## Lägg till i Home Assistant
+## Add to Home Assistant
 
-1. Installera **Remote Calendar** via HACS
-2. Gå till Inställningar → Enheter och tjänster → Lägg till integration → Remote Calendar
-3. Fyll i kalendernamn och URL från tabellen ovan
-
----
-
-## Lägg till i Google Kalender
-
-1. Öppna Google Kalender → klicka på **+** bredvid "Andra kalendrar"
-2. Välj **Från URL**
-3. Klistra in URL:en → klicka **Lägg till kalender**
+1. Install **Remote Calendar** via HACS
+2. Go to Settings → Devices & Services → Add Integration → Remote Calendar
+3. Enter a calendar name and the URL from the table above
 
 ---
 
-## Lägg till i Apple Kalender
+## Add to Google Calendar
 
-1. Öppna Kalender → **Arkiv** → **Ny kalenderprenumeration**
-2. Klistra in URL:en → klicka **Prenumerera**
-
----
-
-## Lägg till i Outlook
-
-1. Öppna Outlook → **Lägg till kalender** → **Prenumerera från webben**
-2. Klistra in URL:en → klicka **Importera**
+1. Open Google Calendar → click **+** next to "Other calendars"
+2. Select **From URL**
+3. Paste the URL → click **Add calendar**
 
 ---
 
-## Innehåll
+## Add to Apple Calendar
 
-- Alla 104 matcher inklusive gruppspel, slutspel och final
-- Tider i lokal tid per land
-- Rätt TV-kanal per match och land
-- Arena och stad per match
-- Egna landslagets matcher markerade
-
-## Källor
-
-- Sverige: [Svenska Fotbollförbundet](https://www.svenskfotboll.se/nyheter/landslag/2026/05/sa-sands-vm/)
-- Norge: [Strim / NRK / TV 2](https://www.strim.no/strimetips/fotball-vm-2026-komplett-sendeskjema)
+1. Open Calendar → **File** → **New Calendar Subscription**
+2. Paste the URL → click **Subscribe**
 
 ---
 
-*Uppdateras vid eventuella ändringar i sändningsschema.*
+## Add to Outlook
+
+1. Open Outlook → **Add calendar** → **Subscribe from web**
+2. Paste the URL → click **Import**
+
+---
+
+## What's included
+
+- All 104 matches including group stage, knockout rounds and final
+- Local times per country
+- Correct TV channel per match and country
+- Venue and city per match
+- Each country's own matches highlighted
+
+## Sources
+
+- Sweden: [Svenska Fotbollförbundet](https://www.svenskfotboll.se/nyheter/landslag/2026/05/sa-sands-vm/)
+- Norway: [Strim / NRK / TV 2](https://www.strim.no/strimetips/fotball-vm-2026-komplett-sendeskjema)
+
+---
+
+*Updated if broadcast schedules change.*
