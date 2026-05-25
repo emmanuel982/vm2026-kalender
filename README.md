@@ -1,3 +1,6 @@
+![Matches](https://img.shields.io/badge/matches-104-blue)
+![Countries](https://img.shields.io/badge/countries-2-green)
+
 # FIFA World Cup 2026 – Calendar for Home Assistant (Sweden & Norway)
 
 ICS calendars with all 104 matches from the 2026 FIFA World Cup. Currently available for Sweden and Norway, with correct local times and TV channel per country. Works in Home Assistant via Remote Calendar, and also directly in Google Calendar, Apple Calendar and Outlook.
@@ -50,6 +53,16 @@ ICS calendars with all 104 matches from the 2026 FIFA World Cup. Currently avail
 - Correct TV channel per match and country
 - Venue and city per match
 - Each country's own matches highlighted
+
+---
+
+## Troubleshooting
+
+- Make sure the URL starts with `raw.githubusercontent.com`
+- In Home Assistant, try reloading the Remote Calendar integration
+- Changes on GitHub may take up to 24 hours to sync in your calendar app
+
+---
 
 ## Sources
 
