@@ -1,9 +1,9 @@
 ![Matches](https://img.shields.io/badge/matches-104-blue)
-![Countries](https://img.shields.io/badge/countries-2-green)
+![Countries](https://img.shields.io/badge/countries-3-green)
 
-# FIFA World Cup 2026 – Calendar for Home Assistant (Sweden & Norway)
+# FIFA World Cup 2026 – Calendar for Home Assistant
 
-ICS calendars with all 104 matches from the 2026 FIFA World Cup. Currently available for Sweden and Norway, with correct local times and TV channel per country. Works in Home Assistant via Remote Calendar, and also directly in Google Calendar, Apple Calendar and Outlook.
+ICS calendars with all 104 matches from the 2026 FIFA World Cup. Available for Sweden and Norway with correct local times and TV channels, plus a generic English version in UTC for users worldwide. Works in Home Assistant via Remote Calendar, and also directly in Google Calendar, Apple Calendar and Outlook.
 
 ---
 
@@ -13,6 +13,7 @@ ICS calendars with all 104 matches from the 2026 FIFA World Cup. Currently avail
 |---|---|---|
 | Sweden | SVT / TV4 | [vm2026-sverige.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/vm2026-sverige.ics) |
 | Norway | NRK / TV 2 | [vm2026-norge.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/vm2026-norge.ics) |
+| English (global) | - | [wc2026-english.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/wc2026-english.ics) |
 
 ---
 
@@ -49,10 +50,10 @@ ICS calendars with all 104 matches from the 2026 FIFA World Cup. Currently avail
 ## What's included
 
 - All 104 matches including group stage, knockout rounds and final
-- Local times per country
-- Correct TV channel per match and country
+- Local times per country (UTC for English version)
+- Correct TV channel per match and country (Sweden and Norway only)
 - Venue and city per match
-- Each country's own matches highlighted
+- Each country's own matches highlighted (Sweden and Norway)
 
 ---
 
@@ -67,7 +68,7 @@ ICS calendars with all 104 matches from the 2026 FIFA World Cup. Currently avail
 ## Sources
 
 - Sweden: [Svenska Fotbollförbundet](https://www.svenskfotboll.se/nyheter/landslag/2026/05/sa-sands-vm/)
-- Norway: [Strim / NRK / TV 2](https://www.strim.no/strimetips/fotball-vm-2026-komplett-sendeskjema)
+- Norway: [TV 2](https://hjelp.tv2.no/huvudkategori/fotball-vm-pa-tv-2/fotball-vm) / [Strim / NRK](https://www.strim.no/strimetips/fotball-vm-2026-komplett-sendeskjema)
 
 ---
 
