@@ -1,6 +1,9 @@
 ![Matches](https://img.shields.io/badge/matches-104-blue)
 ![Countries](https://img.shields.io/badge/countries-3-green)
 
+# Important
+This is a fork from the original repository with updated round of 32 matches for the english version.
+
 # FIFA World Cup 2026 – Calendar for Home Assistant
 
 ICS calendars with all 104 matches from the 2026 FIFA World Cup. Available for Sweden and Norway with correct local times and TV channels, plus a generic English version in UTC for users worldwide. Works in Home Assistant via Remote Calendar, and also directly in Google Calendar, Apple Calendar and Outlook.
@@ -11,8 +14,6 @@ ICS calendars with all 104 matches from the 2026 FIFA World Cup. Available for S
 
 | Country | Channels | URL |
 |---|---|---|
-| Sweden | SVT / TV4 | [vm2026-sverige.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/vm2026-sverige.ics) |
-| Norway | NRK / TV 2 | [vm2026-norge.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/vm2026-norge.ics) |
 | English (global) | - | [wc2026-english.ics](https://raw.githubusercontent.com/roleadmin/vm2026-kalender/refs/heads/main/wc2026-english.ics) |
 
 ---
@@ -69,6 +70,7 @@ ICS calendars with all 104 matches from the 2026 FIFA World Cup. Available for S
 
 - Sweden: [Svenska Fotbollförbundet](https://www.svenskfotboll.se/nyheter/landslag/2026/05/sa-sands-vm/)
 - Norway: [TV 2](https://hjelp.tv2.no/huvudkategori/fotball-vm-pa-tv-2/fotball-vm) / [Strim / NRK](https://www.strim.no/strimetips/fotball-vm-2026-komplett-sendeskjema)
+- English version: [2026 FIFA World Cup - Wikipedia] (https://en.wikipedia.org/wiki/2026_FIFA_World_Cup) 
 
 ---
 
